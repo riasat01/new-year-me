@@ -136,18 +136,22 @@ body {
     position: absolute;
     margin: 196px 200px;
 }
-.plan-end img{
+
+.plan-end img {
     max-width: 1040px;
 }
+
 .plan-end h2 {
     padding: 59px 0 0 64px;
     color: white;
     font-size: 40px;
     font-weight: 700;
 }
-.plan-end button{
+
+.plan-end button {
     margin: 24px 0 0 64px;
 }
+
 .btn-footer {
     color: #F15B22;
     font-size: 20px;
@@ -156,4 +160,39 @@ body {
     border: none;
     border-radius: 5px;
     background: #FFF;
+}
+
+.footer-container {
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+
+    padding: 130px 0;
+}
+
+.footer-container-info {
+    max-width: 485px;
+    color: white;
+}
+
+.footer-info {
+    color: white;
+}
+
+.footer-info h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-info input {
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+}
+.footer-info input::placeholder{
+    font-size: 18px;
+    padding: 21px 0 22px 21px;
 }
