@@ -8,6 +8,8 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header section */
+
 .header-container {
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
@@ -34,22 +36,61 @@ body {
     font-weight: 700;
 }
 
-.header-description {
+.section-description {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 32px;
 }
 
 .header-btn {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 32px;
     padding: 21px 25px 20px 26px;
     border: none;
     border-radius: 5px;
     background: #F15B22;
     /* text-align: right; */
     float: right;
+}
+
+/* main section */
+.circle {
+    height: 528px;
+    width: 528px;
+    border-radius: 528px;
+    background: rgba(241, 91, 34, 0.20);
+    margin: 326px 0 130px 228px;
+    /* position: absolute; */
+}
+
+.person-img {
+    margin: 130px 0 0 205px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 222px;
+    color: #444343;
+}
+
+.about-info {
+    max-width: 416px;
+}
+
+.about-info>h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.about-info>ul{
+    margin-top: 10px;
+    list-style: none;
 }
